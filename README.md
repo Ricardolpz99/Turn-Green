@@ -9,10 +9,7 @@ This is the GitHub repository for our Tecnologico de Monterrey Boot Camp group's
 One strategy for achieving the sustainable development goals is to close the gap between carbon emissions and economic development.
 
 Group Members:
-Ricardo López
-Irving Hernández
-Armando
-Daniela Rodríguez
+Ricardo López, Irving Hernández, Armando, Daniela Rodríguez
 
 While members are assigned specific roles, we all work together on each part of the project
 
