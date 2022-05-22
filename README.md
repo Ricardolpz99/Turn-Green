@@ -30,3 +30,12 @@ When looking for sustainable pattern policies, for example, someone will be able
 - *This prediction is based on renewable usage per country.
 - Which other continental country has the same co2 emission per capita as a specified country?
 - What is a country's proclivity for implementing renewable energy?
+
+## Source of Data
+Our data will be downloaded from 
+Renweable data: https://ourworldindata.org/renewable-energy
+Co2 Emissions and GreenHouse Emissions per Capita:  https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
+All the formats will be downloades as a CSV format.
+Variable time span	1850 – 2019
+Data published by	Met Office Hadley Centre
+
