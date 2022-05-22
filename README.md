@@ -23,3 +23,10 @@ Renewable energy will be critical in decarbonizing our energy systems in the fut
 The Turn Green Tool predicts whether the CO2 emmissions will rise or fall in at least the principle countries of the world by examining renewable usage and co2 gas emissions patterns data.
 
 When looking for sustainable pattern policies, for example, someone will be able to compare the renewable energy implementation, Co2 gases emissions and climate change impact of the principle countries of the world. This could help kids comprehend the similarities and differences between countries sustainable energy policies and help the world makequickly decisiones
+
+## Questions We'd Like Answered:
+
+- Based on the evidence provided, should we expect CO2 emissions to rise or fall in the coming years?
+- *This prediction is based on renewable usage per country.
+- Which other continental country has the same co2 emission per capita as a specified country?
+- What is a country's proclivity for implementing renewable energy?
