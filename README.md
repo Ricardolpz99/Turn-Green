@@ -19,4 +19,4 @@ The coefficient of determination can be used to measure the variability of the a
 The model seeks to make a prediction of the levels of C02 generated, when the levels of use of renewable energies increase. The model makes a prediction based on the patterns it previously learned from the databse.
 
  
-## Storytelling
+
