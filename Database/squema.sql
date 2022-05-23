@@ -17,3 +17,6 @@ CREATE TABLE co2_emissions_per_capita (
 -- Query database to check successful upload
 SELECT * FROM renewable_share_energy;
 SELECT * FROM co2_emissions_per_capita;
+
+drop table renewable_share_energy;
+drop table co2_emissions_per_capita;
