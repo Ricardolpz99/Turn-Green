@@ -1,7 +1,6 @@
 # Turn-Green
 
-## Data Base Mockup
-
+## Storytelling
 
 This is the GitHub repository for our Tecnologico de Monterrey Boot Camp group's final project.
 
@@ -30,6 +29,9 @@ When looking for sustainable pattern policies, for example, someone will be able
 - *This prediction is based on renewable usage per country.
 - Which other continental country has the same co2 emission per capita as a specified country?
 - What is a country's proclivity for implementing renewable energy?
+
+## Database Specification
+[Project Database Specification](Database/README.md)
 
 ## Source of Data
 Our data will be downloaded from 
@@ -65,6 +67,4 @@ Python
 
 ## Possible Technologies
 SQL And Tableau for Visualization
-
-
 
