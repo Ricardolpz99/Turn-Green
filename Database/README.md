@@ -19,4 +19,4 @@ The database is composed of two files; co-emissions-per-capita.csv and renewable
 The data files will be stored in an AWS RDS Database and linked to pgAdmin to create the database tables and relationships between the data.
 
 ## Remote RDS connection
-![pgAdmin](https://github.com/Ricardolpz99/Turn-Green/blob/main/Database/pgAdmin_connection.PNG)
+![pgAdmin](https://github.com/Ricardolpz99/Turn-Green/blob/week_2/circle_database_integration/Database/pgAdmin_connection.PNG)
