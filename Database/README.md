@@ -29,4 +29,4 @@ Our data base consists of three tables, which were the result of merging two dat
 * *Load* - Finally the cleaned dataframes are loaded to an AWS RDS which can be accessed by establishing a connection between the RDS and pgAdmin4 using the sqlAchemy library.
 	* On pgAdmin4 we are able to join two tables: co2_per_capita_vs_green_energy_gen and co2_per_capita_vs_green_electricity which are linked by the 'Code' column.
 
-![pgAdmin](https://github.com/Ricardolpz99/Turn-Green/blob/week_2/circle_database_integration/Database/pgAdmin_join.PNG)
+![pgAdmin](https://github.com/Ricardolpz99/Turn-Green/blob/week_2/circle_database_integration/Database/pgAdmin_joinTables.PNG)
