@@ -52,6 +52,11 @@ ALTER TABLE co2_vs_renewable_electricity
  
 ALTER TABLE co2_vs_renewable_electricity
   DROP COLUMN "Unnamed: 0";
+  
+
+ALTER TABLE co2_vs_renewable_energy_generation
+  DROP COLUMN "Unnamed: 0",
+  DROP COLUMN index;
 
 
 CREATE TABLE co2_vs_green_energy AS
