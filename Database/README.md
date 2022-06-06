@@ -4,19 +4,29 @@
 * [Renewable Energy](https://ourworldindata.org/renewable-energy)
 * [CO₂ and Greenhouse Gas Emissions](https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions)
 
-## Schema
-Our data base will consist of two tables, one for the Use of renewable energy by country and the second for the C02 and Greenhouse Gas Emissions by country and region.
-
-### ERD model
-
-![ERD](https://github.com/Ricardolpz99/Turn-Green/blob/main/Database/DB_ERD.PNG)
-
-
 ## Data description
-The database is composed of two files; co-emissions-per-capita.csv and renewable-share-energy.csv. These two share three fields - entity, code and year - with which we can create a SQL table join.
+Our data base consists of three tables, which were the result of merging two datasets each. They are described below:
+1. co2_per_capita_vs_green_energy
+* co-emissions-per-capita.csv
+* renewable-share-energy.csv
 
-## Data Storage
-The data files will be stored in an AWS RDS Database and linked to pgAdmin to create the database tables and relationships between the data.
+2. co2_per_capita_vs_green_electricity
+* co-emissions-per-capita.csv
+* renewable-electricity-per-capita.csv
 
-## Remote RDS connection
-![pgAdmin](https://github.com/Ricardolpz99/Turn-Green/blob/week_2/circle_database_integration/Database/pgAdmin_connection.PNG)
+3. co2_per_capita_vs_green_energy_gen
+* co-emissions-per-capita.csv
+* renewable-energy-gen.csv
+
+### Schema (ERD model)
+
+![ERD](https://github.com/Ricardolpz99/Turn-Green/blob/main/Database/DB_ERD_V2.PNG)
+
+
+## ETL Pipeline
+* *Extraction* - The data files are extracted from the original site and stored in the Github repository.
+* *Transfor* - The datasets are cleaned up by removing null values and assigning missing values to columns 'Code' and 'Entity'. This is done in notebook Clean_data_RE_gen.ipynb
+* *Load* - Finally the cleaned dataframes are loaded to an AWS RDS which can be accessed by establishing a connection between the RDS and pgAdmin4 using the sqlAchemy library.
+	* On pgAdmin4 we are able to join two tables: co2_per_capita_vs_green_energy_gen and co2_per_capita_vs_green_electricity which are linked by the 'Code' column.
+
+![pgAdmin](https://raw.githubusercontent.com/Ricardolpz99/Turn-Green/main/Database/pgAdmin_joinTables.PNG)

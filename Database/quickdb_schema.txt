@@ -1,0 +1,26 @@
+co2_per_capita_vs_green_energy
+-
+Entity varchar(100) FK >- co2_per_capita_vs_green_energy_gen.Entity
+Code varchar(4) PK FK >- co2_per_capita_vs_green_energy_gen.Code
+Year int
+Annual_co2_per_capita decimal(7,4) FK >- co2_per_capita_vs_green_energy_gen.Annual_co2_per_capita
+Renewables_percentage decimal(6,3)
+
+co2_per_capita_vs_green_electricity
+-
+Entity varchar(100) FK >- co2_per_capita_vs_green_energy_gen.Entity
+Code varchar(4) PK FK >- co2_per_capita_vs_green_energy_gen.Code
+Year int FK >- co2_per_capita_vs_green_energy_gen.Year
+Annual_co2_per_capita decimal(7,4) FK >- co2_per_capita_vs_green_energy_gen.Annual_co2_per_capita
+Renewables_elect_per_capita decimal(6,3)
+
+co2_per_capita_vs_green_energy_gen
+-
+Entity varchar(100)
+Code varchar(4) PK
+Year int FK >- co2_per_capita_vs_green_energy.Year
+Annual_co2_per_capita decimal(7,4)
+Solar_Gen decimal(8,4)
+Wind_Gen decimal(8,4)
+Hydro_Gen decimal(8,4)
+GeoBiomas_Gen decimal(8,4)
