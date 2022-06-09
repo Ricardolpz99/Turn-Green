@@ -8,7 +8,7 @@ This is the GitHub repository for our Tecnologico de Monterrey Boot Camp group's
 One strategy for achieving the sustainable development goals is to close the gap between carbon emissions and economic development.
 
 Group Members:
-Ricardo López, Irving Hernández, Armando, Daniela Rodríguez
+Ricardo López, Irving Hernández, Armando Olvera, Daniela Rodríguez
 
 While members are assigned specific roles, we all work together on each part of the project
 
@@ -51,7 +51,7 @@ We want to evaluate how close the relationship is between the two available vari
 Based on the information in our database; co-emissions-per-capita (3).csv and renewable-share-energy.csv, We generate a DF that joins both files and from there we use the fit function of module sklearn and class linear_model.
 
 ### What is the model's accuracy?
-The coefficient of determination can be used to measure the variability of the amount of renewable energies in relation to the production of Co2 per capita. the value is between 0 and 1. It measures how strongly these variables are related. 
+The coefficient of determination can be used to measure the variability of the amount of renewable energies in relation to the production of Co2 per capita. the value is between 0 and 1. It measures how strongly these variables are related. For the exercise of our project, values greater than .80 were obtained depending on the country.
 
 ### How does this model work?
 
