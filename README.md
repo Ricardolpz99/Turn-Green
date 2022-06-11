@@ -69,4 +69,5 @@ Python
 SQL And Tableau for Visualization
 
 ## Google Slides Storyboard
-https://docs.google.com/presentation/d/1imhD4o1S7Gq01LJeKRttMaJ2JybEZC6ytHRR1T78nOU/edit?fbclid=IwAR2PEqWrCG6k7qnqJR4nVIixex7y7YUtjPe2F9VhtFV7AZ_mWV3SmEPFX2Q#slide=id.g11ce1b54651_6_50
+
+[![slides](https://github.com/Ricardolpz99/Turn-Green/blob/main/Images/Google_Slides.png)](https://docs.google.com/presentation/d/1imhD4o1S7Gq01LJeKRttMaJ2JybEZC6ytHRR1T78nOU/edit?fbclid=IwAR2PEqWrCG6k7qnqJR4nVIixex7y7YUtjPe2F9VhtFV7AZ_mWV3SmEPFX2Q#slide=id.g11ce1b54651_6_50)
