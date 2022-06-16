@@ -71,3 +71,24 @@ SQL And Tableau for Visualization
 ## Google Slides Storyboard
 
 [![slides](https://github.com/Ricardolpz99/Turn-Green/blob/main/Images/Google_Slides.png)](https://docs.google.com/presentation/d/1imhD4o1S7Gq01LJeKRttMaJ2JybEZC6ytHRR1T78nOU/edit?fbclid=IwAR2PEqWrCG6k7qnqJR4nVIixex7y7YUtjPe2F9VhtFV7AZ_mWV3SmEPFX2Q#slide=id.g11ce1b54651_6_50)
+
+## Results of the Analysis
+
+ Europe is the main continent with more countries using renewable energy
+
+Between the decrease in CO2 emissions and the increase in renewable energy usage, there is a similar trend.
+
+
+## Recommendation for future analysis
+Explore more models to improve results and to be able to make future predictions.
+
+Compare models against each other
+## Anything we could have done differently
+
+One major area where we feel we could have improved our project is by taking using more data sets and factors that may influence CO2 emissions. Such as HDI, Income per capita, Inequality Index, etc.
+
+## Dashboard
+https://public.tableau.com/app/profile/daniela.rodriguez5183/viz/FinalProject_16550085043120/Story1?publish=yes
+
+
+
